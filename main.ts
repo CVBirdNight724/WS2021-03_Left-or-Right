@@ -1,7 +1,11 @@
+input.onButtonPressed(Button.AB, function () {
+    score = 0
+})
 let y = 0
 let x = 0
 let ran = 0
 let score = 0
+score = 0
 basic.forever(function () {
     basic.pause(randint(500, 1000))
     ran = randint(0, 1)
